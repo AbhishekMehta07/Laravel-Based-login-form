@@ -1,0 +1,52 @@
+/* .container,body{
+background-color: rgb(180, 180, 180) !important  ; 
+} */
+
+.form-control{
+    /* background-color: rgb(180, 180, 180) !important; */
+    border: 1px solid black;
+}
+
+
+.edit{
+    background-color: green;
+    color: white !important;
+    width: auto;
+    height: auto;
+}
+.edit:hover{
+    background-color: darkgreen;
+}
+
+
+.delete{
+    background-color: red;
+    color: white !important;
+}
+.delete:hover{
+    background-color: rgb(100, 0, 0);
+}
+
+
+
+
+.custom-login{
+    display: flex;
+    justify-content:space-between;
+}
+
+
+.custom-register{
+    display: flex;
+    justify-content:start;
+}
+
+body.dark{
+    background: #222;
+    color: #eee;
+}
+
+body.light {
+    background: #fff;
+    color: #000;
+}
